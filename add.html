@@ -121,12 +121,13 @@
             <div class="form-text">Accepted formats: JPG, JPEG, PNG, GIF, WEBP.</div>
             <div class="invalid-feedback" id="imagePathFeedback">Please choose an image file.</div>
             <div id="fileSelectedLabel" class="text-success small mt-1"></div>
-            <img id="imagePreview" class="image-preview" src="" alt="Cover preview">
+            <img id="imagePreview" class="image-preview" src="assets/images/covers/1.png" alt="Cover preview">
           </div>
 
           <div class="mb-3">
             <label for="status"><span class="material-icons">check_circle</span>Availability Status</label>
             <select class="form-select" id="status" name="status" required>
+            <option value="" selected disabled>Select status</option>
               <option>Available</option>
               <option>Reserved</option>
               <option>Sold</option>
